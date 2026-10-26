@@ -1,0 +1,110 @@
+// Frontend fallback data — used only if the API is unreachable.
+// In production, this will be removed once MongoDB is integrated.
+const movies = [
+  {
+    id: 1,
+    title: "Pushpa 2: The Rule",
+    genre: "Action • Thriller • Drama",
+    rating: 8.5,
+    year: 2024,
+    duration: "3h 20m",
+    language: "Hindi",
+    poster: "/posters/pushpa2.jpg",
+    description:
+      "Pushpa Raj returns with more power and vengeance. As the red sandalwood smuggling empire expands, the stakes get higher and deadlier. The rule is simple — either rule or be ruled.",
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Stree 2",
+    genre: "Horror • Comedy • Fantasy",
+    rating: 8.2,
+    year: 2024,
+    duration: "2h 30m",
+    language: "Hindi",
+    poster: "/posters/stree2.jpg",
+    description:
+      "The ghost of Stree returns to haunt Chanderi once again, but this time she brings an even more terrifying entity. The boys must unite to save their town from a new supernatural threat.",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "Singham Again",
+    genre: "Action • Drama • Thriller",
+    rating: 7.8,
+    year: 2024,
+    duration: "2h 45m",
+    language: "Hindi",
+    poster: "/posters/singham_again.jpg",
+    description:
+      "DCP Bajirao Singham embarks on his most dangerous mission yet, taking on a powerful villain who threatens national security. The lion roars once more to protect the innocent.",
+    featured: false,
+  },
+  {
+    id: 4,
+    title: "Bhool Bhulaiyaa 3",
+    genre: "Horror • Comedy • Mystery",
+    rating: 7.5,
+    year: 2024,
+    duration: "2h 38m",
+    language: "Hindi",
+    poster: "/posters/bhool_bhulaiyaa3.jpg",
+    description:
+      "Rooh Baba returns for another spooky adventure in a haunted haveli. With double the ghosts and double the fun, this time the mystery goes deeper than ever before.",
+    featured: false,
+  },
+  {
+    id: 5,
+    title: "War 2",
+    genre: "Action • Thriller • Espionage",
+    rating: 8.0,
+    year: 2025,
+    duration: "2h 35m",
+    language: "Hindi",
+    poster: "/posters/war2.jpg",
+    description:
+      "India's top spy agent is pulled back into action when a global terror network threatens to destabilize world peace. High-octane action across multiple countries in a race against time.",
+    featured: false,
+  },
+  {
+    id: 6,
+    title: "Border 2",
+    genre: "War • Action • Drama",
+    rating: 8.3,
+    year: 2025,
+    duration: "2h 50m",
+    language: "Hindi",
+    poster: "/posters/border2.jpg",
+    description:
+      "Based on true events from the Battle of Longewala, Border 2 tells the story of Indian soldiers who held their ground against impossible odds, defending the nation with unbreakable courage.",
+    featured: false,
+  },
+  {
+    id: 7,
+    title: "Deva",
+    genre: "Action • Thriller • Crime",
+    rating: 7.6,
+    year: 2025,
+    duration: "2h 22m",
+    language: "Hindi",
+    poster: "/posters/deva.jpg",
+    description:
+      "A fearless cop dives deep into Mumbai's criminal underworld to uncover a massive drug syndicate. But as he gets closer to the truth, he realizes the conspiracy runs deeper than he imagined.",
+    featured: false,
+  },
+  {
+    id: 8,
+    title: "Sky Force",
+    genre: "Action • War • Drama",
+    rating: 7.9,
+    year: 2025,
+    duration: "2h 15m",
+    language: "Hindi",
+    poster: "/posters/sky_force.jpg",
+    description:
+      "India's first air strike movie — based on the untold story of India's bravest air force mission. A tribute to the fearless pilots who changed the course of history.",
+    featured: false,
+  },
+];
+
+export default movies;
